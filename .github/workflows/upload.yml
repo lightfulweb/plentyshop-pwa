@@ -3,9 +3,6 @@ name: Add zip file to S3 bucket
 on:
   # release:
   # types: [published]
-  push:
-    branches:
-      - main
   workflow_dispatch:
     inputs:
       tag-version:
